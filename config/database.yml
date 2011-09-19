@@ -4,8 +4,10 @@ development:
   database: mybrand_development
   hostname: localhost
 
+
 test:
   adapter: postgresql
   encoding: unicode
   database: mybrand_test
   hostname: localhost
+
