@@ -14,6 +14,12 @@
         .container
           %h3
             = link_to "perry hertler", root_url
+          %h2.sidebar-title
+            = link_to image_tag('/assets/txt_file.png'), "http://bit.ly/et0eSH"
+            = link_to image_tag('/assets/github.png'), "http://github.com/perryqh"
+            = link_to image_tag('/assets/linkedin.png'), "http://www.linkedin.com/in/perryhertler"
+            = link_to image_tag('/assets/twitter.png'), "http://twitter.com/perryqh#"
+
     .container
       = yield(:header_right)
       %section#content= yield
