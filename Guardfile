@@ -5,9 +5,10 @@ guard 'spork', :rspec => true, :wait => 30  do
   watch(%r{^config/environments/.*\.rb$})
   watch(%r{^config/initializers/.*\.rb$})
   watch('spec/spec_helper.rb')
+  watch(%r{^spec/support/.+\.rb$})
 end
 
-guard 'rspec', :cli => "--color --format nested --fail-fast --drb" do
+guard 'rspec', :version => 2, :cli => "--color --format nested --drb", :all_on_start => false, :all_after_pass => false do
   watch(%r{^spec/.+_spec\.rb})
   watch(%r{^lib/(.+)\.rb})     { |m| "spec/lib/#{m[1]}_spec.rb" }
   watch('spec/spec_helper.rb') { "spec" }
