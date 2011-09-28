@@ -14,11 +14,15 @@
         .container
           %h3
             = link_to "perry hertler", root_url
-          %h2.sidebar-title
-            = link_to image_tag('/assets/txt_file.png'), "http://bit.ly/et0eSH"
-            = link_to image_tag('/assets/github.png'), "http://github.com/perryqh"
-            = link_to image_tag('/assets/linkedin.png'), "http://www.linkedin.com/in/perryhertler"
-            = link_to image_tag('/assets/twitter.png'), "http://twitter.com/perryqh#"
+          %ul.nav
+            %li.active Intro
+            %li Blog
+            %li Resume
+          #global-nav
+            = link_to image_tag('/assets/gnome_text_x_generic.png'), "http://bit.ly/et0eSH", {:rel => 'twipsy', :title => 'resume'}
+            = link_to image_tag('/assets/github.png'), "http://github.com/perryqh", {:rel => 'twipsy', :title => 'github'}
+            = link_to image_tag('/assets/linkedin.png'), "http://www.linkedin.com/in/perryhertler", {:rel => 'twipsy', :title => 'linkedin'}
+            = link_to image_tag('/assets/twitter.png'), "http://twitter.com/perryqh#", {:rel => 'twipsy', :title => 'twitter'}
 
     .container
       = yield(:header_right)
