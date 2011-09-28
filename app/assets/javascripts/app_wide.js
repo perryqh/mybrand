@@ -5,4 +5,9 @@ $(function() {
       placement: 'below'
     });
   });
+  $("a[rel=popover-img]").popover({
+      live: true,
+      html: true,
+      placement: 'below'
+    });
 });

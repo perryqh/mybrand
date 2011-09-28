@@ -12,20 +12,18 @@
     .topbar
       .topbar-inner
         .container
-          %h3
-            = link_to "perry hertler", root_url
-          %ul.nav
-            %li.active Intro
-            %li Blog
-            %li Resume
-          #global-nav
+          = link_to "perry hertler", root_url, :class => :brand
+          %ul.pills
+            %li= link_to('Intro', root_url)
+            %li= link_to('Blog', 'blog.hertler.org')
+            %li= link_to('Resume', '#')
+          #branding-links
             = link_to image_tag('/assets/gnome_text_x_generic.png'), "http://bit.ly/et0eSH", {:rel => 'twipsy', :title => 'resume'}
             = link_to image_tag('/assets/github.png'), "http://github.com/perryqh", {:rel => 'twipsy', :title => 'github'}
             = link_to image_tag('/assets/linkedin.png'), "http://www.linkedin.com/in/perryhertler", {:rel => 'twipsy', :title => 'linkedin'}
             = link_to image_tag('/assets/twitter.png'), "http://twitter.com/perryqh#", {:rel => 'twipsy', :title => 'twitter'}
 
     .container
-      = yield(:header_right)
-      %section#content= yield
+      #content= yield
 
     %footer
