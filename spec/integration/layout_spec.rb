@@ -15,11 +15,11 @@ describe "Translations" do
     end
 
     it "displays nav menu" do
-      within(:css, 'ul.nav') {
+      within(:css, 'ul') {
         page.should have_css("li")
-        page.should have_content("Intro")
-        page.should have_content("Blog")
-        page.should have_content("Resume")
+        page.should have_content("intro")
+        page.should have_content("blog")
+        page.should have_content("resume")
       }
     end
   end

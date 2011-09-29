@@ -13,10 +13,8 @@
       .topbar-inner
         .container
           = link_to "perry hertler", root_url, :class => :brand
-          %ul.nav
-            %li= link_to('Intro', root_url)
-            %li= link_to('Blog', page_url('blog'))
-            %li= link_to('Resume', page_url('resume'))
+          = render_navigation
+
           #branding-links
             = link_to image_tag('/assets/gnome_text_x_generic.png'), "http://bit.ly/et0eSH", {:rel => 'twipsy', :title => 'resume'}
             = link_to image_tag('/assets/github.png'), "http://github.com/perryqh", {:rel => 'twipsy', :title => 'github'}
