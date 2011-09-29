@@ -7,13 +7,12 @@ describe "intro page" do
     end
 
     it "displays brand icons and links" do
-      within(:css, 'div.page-header') {
-        page.should have_content("Introductions")
+      within(:css, 'div.header-row') {
+        page.should have_content("I'm Perry")
       }
       within(:css, 'div#branding-links') {
         page.should have_css("a[rel=twipsy]")
       }
-      page.should have_content("I am a Developer")
       page.should have_content("Interests")
       page.should have_content("Currently")
     end

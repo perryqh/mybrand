@@ -15,7 +15,7 @@ describe "Translations" do
     end
 
     it "displays nav menu" do
-      within(:css, 'ul.pills') {
+      within(:css, 'ul.nav') {
         page.should have_css("li")
         page.should have_content("Intro")
         page.should have_content("Blog")
