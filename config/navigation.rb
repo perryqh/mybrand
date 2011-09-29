@@ -43,7 +43,7 @@ SimpleNavigation::Configuration.run do |navigation|
     #                            against the current URI.  You may also use a proc, or the symbol <tt>:subpath</tt>.
     #
     primary.item :intro, 'intro', page_path("intro")
-    primary.item :blog, 'blog', page_path("blog")
+    primary.item :blog, 'blog', 'http://blog.hertler.org'
     primary.item :resume, 'resume', page_path("resume")
   end
 
