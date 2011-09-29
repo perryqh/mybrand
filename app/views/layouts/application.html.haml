@@ -1,7 +1,7 @@
 !!!
 %html
   %head
-    %title perry hertler
+    %title= yield(:title) || "perry hertler"
     = stylesheet_link_tag    "application"
     = javascript_include_tag "application"
     = csrf_meta_tags
