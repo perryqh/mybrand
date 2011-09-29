@@ -7,7 +7,7 @@ gem 'settingslogic',           '~> 2.0.6'
 gem 'thin',                    '~> 1.2.11'
 gem 'json',                    '~> 1.6.1'
 gem 'twitter-bootstrap-rails', :git => 'http://github.com/seyhunak/twitter-bootstrap-rails.git' 
-
+gem 'high_voltage',            '~> 1.0.1'
 gem 'pg',                      '0.11.0'
 
 # Gems used only for assets and not required

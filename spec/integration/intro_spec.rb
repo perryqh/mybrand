@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe "dashboard" do
+describe "intro page" do
   describe "GET /" do
     before(:each) do
       visit root_url

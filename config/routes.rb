@@ -1,5 +1,3 @@
 Mybrand::Application.routes.draw do
-  resources :dashboard, :only => [:index]
-  
-  root :to => 'dashboard#index'
+  root :to => 'high_voltage/pages#show', :id => 'intro'
 end
