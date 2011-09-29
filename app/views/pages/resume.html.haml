@@ -1,8 +1,50 @@
 - title "Perry Hertler - Resume"
 %section
-  .page-header 
-    %h1 Resume
-  .row
-    .span
-      A pretty HTML version is coming soon, but for now checkout 
-      = link_to('google doc resume', "http://bit.ly/et0eSH")
+  .resume-container
+    .row
+      %address.span9
+        %h1 Perry Hertler
+        .span3 perry@hertler.org
+        .span3 262.373.8175 
+        .span3 github.com/perryqh
+        .span3 #perryqh
+      .span6   
+        = image_tag('/assets/perry-blue-resume.png', {:class => 'resume-mugshot', :width => 110, :height => 121})
+    .resume-content
+      .row
+        %h2 PROFILE
+        .summary.marg-top
+          I am a Ruby on Rails and iOS Developer with over 13 years experience delivering highly performant well craftedoftware in a wide variety of software systems including embedded, real-time, distributed, desktop, and web applications using agile best practices. I have delivered over 30 applications on time, on budget, and feature complete
+        .summary
+          I am particularly interested in fully utilizing my high productivity and wide breadth of skills at a small startup company.
+      .row
+        %h2 EXPERIENCE
+        %h3 G5 Platform
+        %em Team Lead, Bend, OR (telecommute), [May.2011 - Present]
+        .summary
+          G5 provides online marketing solutions to self-storage, student-housing, and senior living properties. I am responsible for leading software developers across our two main effors, Reporting and Mobile.
+        .summary
+          I was also part of a team that upgraded the core custom CMS from Rails 2 to Rails 3.
+
+      .row
+        %h3 Pathfinder Software
+        %em CTO, Chicago, IL (telecommute), [September.2009 - May.2011]
+        .summary
+          Pathﬁnder is a consulting ﬁrm that specializes in delivering MVP for startup companies. While serving as CTO I also participated as Lead Developer on several projects.
+        %h4 Projects
+        %h5 DataColor Colorspot (iOS 4) - Lead Developer
+        .summary
+          Colorspot is an iPhone application used by interior designers to capture color swatches and then visualize the swatch on surfaces, compare it to another swatch, view color harmony, lookup similar colors, and share the swatch.
+        %h5 seasonalbids.com (Rails 3) - Lead Developer
+        .summary
+          SeasonalBids provides property managers (PMs) a place to author and public request for bids (RFBs). Contractors can then search for RFBs in their area and bid on them up until the deadline date, which is set by the property manager. PMs can then award contracts to the winning contractors.
+        %h5 pod-cme.com (Rails 3) - Lead Developer
+        .summary
+          pod-cme is used by physicians to participate in clinical studies and obtain CME credits. Administrators of the site can build clinical area questionnaires and provide education material in documents, podcasts, or videos.
+        %h5 nailyourmortgage.com (Rails 2.3) - Senior Developer
+        .summary
+          nailyourmortgage provides wholesale mortgages to home buyers and reﬁnancers.
+      .row
+        %h3 Redpoint Technologies
+        %em Technical Software Architect, Chicago, IL (telecommute), [September.2007 - September.2009]
+        .summary
