@@ -42,7 +42,7 @@ SimpleNavigation::Configuration.run do |navigation|
     #                            when the item should be highlighted, you can set a regexp which is matched
     #                            against the current URI.  You may also use a proc, or the symbol <tt>:subpath</tt>.
     #
-    primary.item :intro, 'intro', page_path("intro")
+    primary.item :intro, 'intro', root_url
     primary.item :blog, 'blog', 'http://blog.hertler.org'
     primary.item :resume, 'resume', page_path("resume")
   end
