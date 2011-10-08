@@ -13,8 +13,6 @@ describe "intro page" do
       within(:css, 'div#branding-links') {
         page.should have_css("a[rel=twipsy]")
       }
-      page.should have_content("Geek")
-      page.should have_content("Currently")
     end
   end
 end
