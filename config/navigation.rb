@@ -44,7 +44,7 @@ SimpleNavigation::Configuration.run do |navigation|
     #
     primary.item :intro, 'intro', root_url
     primary.item :blog, 'blog', 'http://blog.hertler.org'
-    primary.item :resume, 'resume', page_path("resume")
+    primary.item :resume, 'resume', resume_url
   end
 
 end
