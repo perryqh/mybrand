@@ -2,12 +2,12 @@
 %section.thirtyseven
   .row.header-row.center
     .span16
-      %h1 
+      %h2 
         Hi 37signals, I'm 
         = link_to('Perry', 'https://github.com/perryqh')
         %span.dot .
            
-    .span16= image_tag('brick-mug.png', :class => 'mug-shot')
+    .span16= image_tag('mug-brick.png', :class => 'mug-shot')
       
   .row
     .span16.center.explain
@@ -37,7 +37,8 @@
         I'm kind of an exercise freak in that I run, cycle, and do resistance training almost every day. Sometimes, this leads to me competing in 
         = link_to('crazy events', '#', {:title => 'Tazered at ToughMudder', :rel => 'popover-img', 'data-content' => "#{image_tag('perry-tazered.png')}"})
         or getting air rescued because I
-        = link_to("\"failed to negotiate a jump\".", 'http://bit.ly/o7DWcX')
+        = link_to("\"failed to negotiate a jump\"", 'http://bit.ly/o7DWcX')
+        %span.dot .
       .summary
         In summary, I'm not going to eat all of your cheetos or drink all of your beer, but you may want to hide the juicer.
     .span-one-third
@@ -56,7 +57,7 @@
       .summary
         While creating this cover letter, I reread REWORK. I find myself nodding my head on almost every page. The do-what-works and cut-out-eveything-else approach resonates with me.
       .summary
-        Let's create great products with great people while being completely honest with our customers! While we are at, let's question everything and not be satisified with "this is how it's always been done"?
+        Let's create great products with great people while being completely honest with our customers! While we are at, let's question everything and not be satisified with "this is how it's always been done".
         
     .span-one-third
       %h3 You build awesome products
@@ -69,21 +70,38 @@
 
   .row
     .span16.center.explain
+      %h2 github Projects
+    .span16.center
+      .summary
+        My largest project publicly available on github is  
+        = link_to('crbc', 'https://github.com/crbc-dev/crbc')
+        , which is my church's website 
+        = link_to('reformedbaptist.us', 'http://reformedbaptist.us')
+        %span.dot .
+      .summary
+        = link_to('Translatable', 'https://github.com/perryqh/translatable')
+        and the 
+        = link_to('site you are currently viewing', 'https://github.com/perryqh/mybrand')
+        are smallish rails 3.1 applications. 
+
+  .row
+    .span16.center.explain
       %h2 Recent Projects
-    .span
+    .span16.center
       .summary
         In the last few years, I have been the lead developer on 
         = link_to('g5search.com', 'http://g5search.com')
-        ,
+        %span.dot ,
         = link_to('seasonalbids.com', 'http://seasonalbids.com')
-        ,
+        %span.dot ,
         = link_to('pod-cme.com', 'http://pod-cme.com')
-        , and
+        %span.dot, and
         = link_to('nailyourmortgage.com', 'http://nailyourmortgage.com')
+        %span.dot .
       
-    .span
+    .span16.center
       .summary
-        Earlier, there is a 7 year hole in my professional career where I created the most amazing products with brilliant people at 
+        Earlier, there is a 7 year "undercover" period in my professional career where I created the most amazing products with brilliant people at 
         = link_to('Sandia National Labs', 'http://www.sandia.gov/')
         %span.dot . 
-        Unfortunately, I can't elaborate on what I did specifically.
+        Unfortunately, I can't elaborate on what I did specifically or I would have to ...
