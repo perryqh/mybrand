@@ -1,15 +1,16 @@
 - title "Perry Hertler - Resume"
 %section
-  %a{:href => '/hertler-resume-2011.pdf', :class => 'pdf-resume'} PDF Version
   .resume-container
     .row
-      %address.span9
+      %address.span7
         %h1 Perry Hertler
         .span3= mail_to 'perry@hertler.org'
         .span3 262.373.8175 
         .span3= link_to('github.com/perryqh', 'http://github.com/perryqh')
         .span3= link_to '@perryqh', 'http://twitter.com/#!/perryqh'
-      .span6   
+      .span3
+        %a{:href => '/hertler-resume-2011.pdf', :class => 'pdf-resume'} PDF Version
+      .span3   
         = image_tag('perry-blue-resume.png', {:class => 'resume-mugshot', :width => 110, :height => 121})
     .resume-content
       .row
