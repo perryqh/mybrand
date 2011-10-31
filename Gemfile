@@ -10,7 +10,6 @@ gem 'twitter-bootstrap-rails', :git => 'http://github.com/seyhunak/twitter-boots
 gem 'less-rails',              '>= 2.0.1'
 gem 'high_voltage',            '~> 1.0.1'
 gem 'simple-navigation',       '~> 3.5.0'
-gem 'pg',                      '0.11.0'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -30,7 +29,7 @@ group :test do
   gem 'rb-fsevent',               '>= 0.4.3'
   gem 'growl',                    '>= 1.0.3'
   gem "spork",                    '>= 0.9.0.rc9'
-  gem 'capybara-webkit',          '>= 0.6.1'
+  gem 'capybara',                 '>= 1.1.1'
 end
 
 
