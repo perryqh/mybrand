@@ -19,13 +19,13 @@ group :assets do
   gem 'uglifier',              "~> 1.0.3"
 end
 
-gem 'jquery-rails',            "~> 1.0.13"
+gem 'jquery-rails',            "~> 1.0.16"
 
 group :test do
   gem 'turn', :require => false
-  gem 'rspec-rails',              '~> 2.6.1'
-  gem 'guard-rspec',              '>= 0.4.3'
-  gem 'guard-spork',              '>= 0.2.1'
+  gem 'rspec-rails',              '~> 2.7.0'
+  gem 'guard-rspec',              '>= 0.5.2'
+  gem 'guard-spork',              '>= 0.3.1'
   gem 'rb-fsevent',               '>= 0.4.3'
   gem 'growl',                    '>= 1.0.3'
   gem "spork",                    '>= 0.9.0.rc9'
