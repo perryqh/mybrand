@@ -26,6 +26,7 @@ group :test do
   gem 'rspec-rails',              '~> 2.7.0'
   gem 'guard-rspec',              '>= 0.5.2'
   gem 'guard-spork',              '>= 0.3.1'
+  gem 'guard-bundler',            '>= 0.1.3'
   gem 'rb-fsevent',               '>= 0.4.3'
   gem 'growl',                    '>= 1.0.3'
   gem "spork",                    '>= 0.9.0.rc9'
