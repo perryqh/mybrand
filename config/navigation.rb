@@ -25,6 +25,7 @@ SimpleNavigation::Configuration.run do |navigation|
 
   # Define the primary navigation
   navigation.items do |primary|
+    primary.dom_class = 'nav'
     # Add an item to the primary navigation. The following params apply:
     # key - a symbol which uniquely defines your navigation item in the scope of the primary_navigation
     # name - will be displayed in the rendered navigation. This can also be a call to your I18n-framework.
