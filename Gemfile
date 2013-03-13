@@ -1,7 +1,8 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.2.8'
+gem 'rails', '>=3.2.12'
 
+gem 'therubyracer'
 gem 'haml'
 gem 'settingslogic'
 gem 'thin'
