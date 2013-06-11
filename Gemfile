@@ -11,8 +11,8 @@ gem 'less-rails'
 gem 'high_voltage'
 gem 'simple-navigation'
 
+gem 'twitter-bootstrap-rails'
 group :assets do
-  gem 'twitter-bootstrap-rails'
   gem 'sass-rails', '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
 
