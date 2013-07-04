@@ -1,32 +1,32 @@
 source 'http://rubygems.org'
 
-gem 'rails', '>=3.2.12'
+gem 'rails', '4.0'
 
-gem 'therubyracer'
-gem 'haml'
-gem 'settingslogic'
-gem 'thin'
-gem 'json'
+gem 'haml-rails'
 gem 'less-rails'
+gem 'therubyracer'
+gem 'settingslogic'
+gem 'json'
 gem 'high_voltage'
 gem 'simple-navigation'
 
 gem 'twitter-bootstrap-rails'
-group :assets do
-  gem 'sass-rails', '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
+gem 'sass-rails', '~> 4.0'
+gem 'coffee-rails', '~> 4.0'
 
-  gem 'uglifier', '>= 1.0.3'
-end
+gem 'uglifier', '>= 1.3'
 
 gem 'jquery-rails'
+gem 'turbolinks'
 
 group :test do
-  gem 'turn', :require => false
+  gem 'turn', require: false
   gem 'rspec-rails'
   gem 'guard-rspec'
   gem 'capybara'
 end
 
+
+gem 'unicorn'
 
 

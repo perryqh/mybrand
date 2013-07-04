@@ -1,5 +1,4 @@
 Mybrand::Application.routes.draw do
-  resources :pages, :only => :show
-  root :to => 'pages#show', :id => 'intro'
-  match 'resume' => 'pages#show', :id => 'resume', :as => :resume
+  root to: 'high_voltage/pages#show', id: 'intro'
+  get '/resume' => 'high_voltage/pages#show', id: 'resume'
 end
