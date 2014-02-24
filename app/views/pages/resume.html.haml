@@ -9,20 +9,28 @@
         .span6= link_to('github.com/perryqh', 'http://github.com/perryqh')
         .span6= link_to '@perryqh', 'http://twitter.com/#!/perryqh'
       .span2
-        %a{:href => '/hertler-resume-2013.pdf', :class => 'pdf-resume'} PDF Version
+        %a{:href => '/hertler-resume.pdf', :class => 'pdf-resume'} PDF Version
       .span3   
-        = image_tag('perry-blue-resume.png', {:class => 'resume-mugshot', :width => 110, :height => 121})
+        = image_tag('perry-blue-resume.png', {class: 'resume-mugshot'})
     .resume-content
       .row
         %h2 PROFILE
         .summary.marg-top
           I am a Ruby on Rails and iOS Developer with over 13 years experience delivering highly performant well crafted software in a wide variety of software systems including embedded, real-time, distributed, desktop, and web applications using agile best practices. I have delivered over 30 applications on time, on budget, and feature complete
         .summary
-          The last 5 years I have been TDDing Ruby/Rails applications.
+          The last 7 years I have been TDDing Ruby/Rails applications.
       .row
         %h2 EXPERIENCE
-        %h3.no-marg Fidelity Life Association (FLA)
-        %em Team Lead, Remote Independent Consultant, 2011 - Present]
+      .row
+        %h3= link_to('G5', 'http://www.getg5.com/')
+        %em Team Lead, Remote Independent Consultant, 2014 - Present
+        .summary
+          G5 provides custom marketing web sites for self-storage and senior-living companies
+        .summary
+          Hands-on team lead on a SOA-based vendor integration system consisting of 3 services and 4 Ember.js applications.
+
+        %h3= link_to('Fidelity Life Association (FLA)', 'http://www.fidelitylife.com/')
+        %em Team Lead, Remote Independent Consultant, 2011 - 2014]
         .summary
           FLA is transitioning to a product company.
         .summary
@@ -92,13 +100,13 @@
           Ruby, Java, C#, Objective-C, C++
         %h3 Frameworks/Databases
         .summary
-          Ruby on Rails, JQuery, MySQL, Postgres, Oracle
+          Ruby on Rails, Ember.js, JQuery, MySQL, Postgres, Oracle, MySQL
         %h3 Testing
         .summary
           Real TDD with RSpec
         %h3 Platform/Tools
         .summary
-          Heroku, EC2, S3, RDS, Cloudfront, Passenger, Git, OSX, Linux
+          RubyMotion, Heroku, EC2, S3, RDS, RabbitMQ, Cloudfront, Passenger, Git, OSX, Linux
         %h3 Performance
         .summary
           Rapid application development, load testing, proﬁling, instrumentation, code optimization, database optimization
