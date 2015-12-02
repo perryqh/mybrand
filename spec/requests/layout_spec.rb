@@ -7,19 +7,17 @@ describe 'Translations' do
     end
 
     it 'displays brand icons and links' do
-      page.should have_content('perry hertler')
+      expect(page).to have_content('perry hertler')
 
       within(:css, 'div#branding-links') {
-        page.should have_css('a[rel=twipsy]')
+        expect(page).to have_css('a[rel=twipsy]')
       }
     end
 
     it 'displays nav menu' do
       within(:css, 'ul') {
-        page.should have_css('li')
-        page.should have_content('intro')
-        page.should have_content('blog')
-        page.should have_content('resume')
+        expect(page).to have_css('li')
+        expect(page).to have_content('intro')
       }
     end
   end
