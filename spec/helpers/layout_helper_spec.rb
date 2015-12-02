@@ -1,8 +1,8 @@
-require 'spec_helper'
+require 'rails_helper'
 
 describe LayoutHelper do
   describe 'title' do
-    it "should set show title" do
+    it 'should set show title' do
       helper.title('nice seo title').should be_true
       helper.show_title?.should be_true
 
@@ -10,7 +10,7 @@ describe LayoutHelper do
       helper.show_title?.should be_false
     end
 
-    it "should set the content title" do
+    it 'should set the content title' do
       title = 'my great title'
       helper.title(title)
 
