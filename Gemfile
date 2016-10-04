@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '4.2.5'
+gem 'rails', '4.2.7.1'
 
 gem 'haml-rails'
 gem 'settingslogic'
@@ -28,6 +28,6 @@ gem 'rails_12factor', group: :production
 gem 'unicorn'
 gem 'foreman'
 
-ruby '2.2.3'
+ruby '2.3.1'
 
 
