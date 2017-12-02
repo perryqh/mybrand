@@ -13,12 +13,5 @@ describe 'Translations' do
         expect(page).to have_css('a[rel=twipsy]')
       }
     end
-
-    it 'displays nav menu' do
-      within(:css, 'ul') {
-        expect(page).to have_css('li')
-        expect(page).to have_content('intro')
-      }
-    end
   end
 end

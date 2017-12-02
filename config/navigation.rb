@@ -26,6 +26,5 @@ SimpleNavigation::Configuration.run do |navigation|
   # Define the primary navigation
   navigation.items do |primary|
     primary.dom_class = 'nav'
-    primary.item :intro, 'intro', root_url
   end
 end
